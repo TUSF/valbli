@@ -5,7 +5,7 @@ FamilyName: Sefta
 Weight: Regular
 Copyright: Copyright (c) 2016, TUSF
 UComments: "2016-12-7: Created with FontForge (http://fontforge.org)"
-FontLog: "Dec 08, 2016+AAoA Base glyphs created.+AAoA TODO: Write a script to generate the rest of the font, by superimposing references together."
+FontLog: "Dec 09, 2016+AAoA Component glyphs created.+AAoA TODO: Come up with a structure for CVVV cmavo (examples I've seen are all split by a '). Presumably could be treated as syllable blocks, split by a horizontal line. {CVV}{V} or {CV}{VV}. A diphthong is treated as a single Syllable.+AAoA-Dec 08, 2016+AAoA Base glyphs created.+AAoA TODO: Write a script to generate the rest of the font, by superimposing references together."
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1481153107
-ModificationTime: 1481259315
+ModificationTime: 1481326814
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,7 +48,7 @@ OS2UnicodeRanges: 00000000.10000000.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: UnicodeFull
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -57,5 +57,31 @@ FitToEm: 0
 WinInfo: 57312 16 10
 BeginPrivate: 0
 EndPrivate
+Grid
+-1000 610 m 0
+ 2000 610 l 1024
+  Named: "Wtopborder"
+-1000 590 m 0
+ 2000 590 l 1024
+  Named: "Wbottomborder"
+-1000 600 m 0
+ 2000 600 l 1024
+490 1300 m 0
+ 490 -700 l 1024
+  Named: "leftborder"
+500 1300 m 0
+ 500 -700 l 1024
+510 1300 m 0
+ 510 -700 l 1024
+  Named: "rightborder"
+-1000 390.125 m 0
+ 2000 390.125 l 1024
+  Named: "bottomborder"
+-1000 410 m 0
+ 2000 410 l 1024
+  Named: "topborder"
+-1000 400.200012207 m 0
+ 2000 400.200012207 l 1024
+EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 EndSplineFont
