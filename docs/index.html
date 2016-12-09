@@ -7,7 +7,7 @@
 		src: url("Sefta.woff") format('woff');
 	}
 	body {
-		font-family: Sefta, Ariel, sans-serif;
+		font-family: Sefta, serif;
 	}
 	nav#nav {
 		border: 1px solid black;
@@ -81,9 +81,8 @@
 		<p>However, while Hangul is an interesting and logical system, the evolution of the language has made it difficult
 		to use in its natural state for anything other than Korean. For that reason, instead of mapping a Korean writing
 		system to the specifications of a language not at all like Korean, this proposal aims to define a writing system that,
-		while similar in some aspects to Hangul, is better suited to Lojban. The Temporary name of this writing system is
-		<b>Valbli.</b> (word blocks)
-		 &#xe010;&#xe011;&#xe014;&#xe01a;&#xe020;</p>
+		while similar in some aspects to Hangul, is better suited to Lojban. The name of the proposed writing system is
+		<b>Valbli.</b> (word blocks)</p>
 	</section>
 	<nav id="nav">
 		<p><b>Table of Contents</b></p>
@@ -98,14 +97,14 @@
 	</nav>
 	<section id="lerfu">
 		<h2>Letters</h2>
-			<p>Valbli is a featural alphabet. Each symbol, or letter, represents a phoneme in Lojbanic phonology. In total, there are
+			<p>Valbli is a featural alphabet. Each symbol, or letter, represents a unit in Lojbanic phonology. In total, there are
 			six vowel and twenty-one consonant sounds in Lojban, for a total of twenty-seven letters. However,
 			Roman-mode Lojban treats the <i>unvoiced glottal spirant</i> (IPA: <b>h</b>, LJB: <b>'</b>) and <i>glottal
 			stop</i> (IPA: <b>ʔ</b>, LJB: <b>.</b>) as only half-consonants, while treating the <i>voiced labio-velar
 			approximant</i> (IPA: <b>w</b>, <b>u-</b>) and <i>palatal approximant</i> (IPA: <b>j</b>, LJB: <b>i-</b>) as
 			the starting vowel of diphthongs. If we maintain this mapping, this leaves us with only a need for 6 vowels and
 			19 consonants.</p>
-			<p>Below is my proposed chart for the various letters of Valbli.</p>
+			<p>Below is a chart for the various letters of Valbli.</p>
 		<section id="vowels">
 			<h3>Vowels</h3>
 			<div class="glyph">			<!-- a -->
@@ -228,13 +227,14 @@
 			</section>
 		</section>
 		<span class="WIP">The alphabet is not final. Graphemes are subject to change, if a symbol proves cumbersome, or if
-		a better alternative is proposed.</span>
+		a better alternative is proposed. The &#xe01a; (l) grapheme is a candidate for replacement.</span>
 
-		<p>As you can probably tell, there is a pattern to certain letters. This is, to an extent, a featural writing system.
-		I split up the manner of articulation for different phonemes in Lojban into their own templates. <i>Stops</i> (., b, d, g,
-		k, p, t) have a horizontal line as a base. The base for <i>Sibilants</i> (c, j, s, z) is a left-facing cup.
-		<i>Fricatives</i> (', f, v, x) have a vertical line as a base. And <i>Nasals</i> (m, n) have a right-facing 90-degree
-		angle for a base.</p>
+		<p>Most letters in Valbli follow different patterns. This is what makes Valbli a featural writing system.
+		I split up the manner of articulation for different phonemes in Lojban into their own templates.
+		<i>Stops</i> (., b, d, g, k, p, t) have a horizontal line as a base.
+		<i>Sibilants</i> (c, j, s, z) have a left-facing cup base.
+		<i>Fricatives</i> (', f, v, x) have a vertical line as a base.
+		And <i>Nasals</i> (m, n) have a right-facing 90-degree angle for a base.</p>
 		<p>The idea behind the bases allows for quickly identifying a symbol, and because Lojban does not allow <i>gismu</i>
 		with similar sounding words, a reader is not likely to mix up words. Modifications to the base are also determined
 		by the type of sound it is classified under IPA. However, because "<i>l</i>" and "<i>r</i>" do not fall into either
@@ -245,60 +245,69 @@
 		<h2>Blocks</h2>
 		<p>In Hangul, letters come together, and form syllable blocks. Rarely are there blocks composed of multiple syllables.
 		In Lojban, syllables are formed around vowel sounds, often surrounded by consonants or consonant pair. <i>Gismu</i>,
-		the core to Lojban vocabulary, are all composed of 5 letters, and 2 syllables. Thus, <i>gismu</i> exist in either <i>CCVCV</i>
-		or <i>CVCCV</i>. <i>Rafsi</i>, abbreviated <i>gismu</i> affixes are a single syllable that exist as either <i>CVC</i>,
+		the core to Lojban vocabulary, are all composed of 5 letters, or 2 syllables. Thus, <i>gismu</i> exist in either <i>CCVCV</i>
+		or <i>CVCCV</i>. <i>Rafsi</i> (abbreviated <i>gismu</i> affixes) are a single syllable that exist as either <i>CVC</i>,
 		<i>CCV</i>, or <i>CVV</i> forms.</p>
 
-		<p>For these reasons, up to three Valbli letters stack into Syllable Blocks, and up to two Syllable Blocks stack into 1
-		Word Block. As a result, <i>Cmavo</i> and <i>Gismu</i> can all be represented in a single glyph. <i>Lujvo</i>
-		(compond words formed from <i>Rafsi</i> syllables) require multiple glyphs because Lujvo can be arbitrarily long
-		(as long as they end in a vowel), and each <i>Rafsi</i> is to be written as an indevidual glyph.</p>
-		<p>The tables below would represent a couple syllable formats.</p>
+		<p>Valbli word-blocks do <i>not</i> represent syllables, and instead represent the parts of Lojbanic speach.
+		<i>cmavo</i>, <i>gismu</i> and <i>rafis</i> are all represented by a single glyph. <i>Compound cmavo</i> will
+		need to be composed of multiple <i>cmavo</i> glyphs. <i>Lujvo</i> (Compound <i>gismu</i>) also require multiple
+		<i>CVC</i>, <i>CVV</i> or <i>CCV</i> glyphs.</p>
+
+		<p>These limitations are in consideration of Unicode standardization. As a result <i>fu'ivla</i> (Lojbanic loan words)
+		 and <i>cmene</i> (names) as well as other such words need to be written with individual glyphs, like any other alphabet.</p>
+
+		<p>The tables below would represent a couple block formats.</p>
 		<pre>
 	╔════════════╦════════════╗  ╔════════╦════════╦════════╗
 	║            ║            ║  ║        ║        ║        ║
 	║     1      ║     2      ║  ║    1   ║    2   ║    3   ║
 	║            ║            ║  ║        ║        ║        ║
 	╚════════════╩════════════╝  ╚════════╩════════╩════════╝</pre>
-		<p>These two formats represent either (C)CV, CV(V) or even (V)VV syllable blocks. It should be noted that Lojban does not
+		<p>These two formats represent either CV, .VV, CCV or CVV cmavo blocks. It should be noted that Lojban does not
 		treat the <i>unvoiced glottal spirant</i> (') as a vowel nor consonant, and instead acts more as a seperator for
-		vowels that aren't allowed together otherwise. In Valbli, the <i>unvoiced glottal spirant</i> is a simple vertical line, and
-		may be inserted BETWEEN the given positions.</p>
+		vowels that aren't allowed together otherwise. In Valbli, the <i>unvoiced glottal spirant</i> is a simple vertical line,
+		and may be inserted BETWEEN the given positions. Thus, the <b>.</b> and <b>'</b> are not represented in these formats,
+		even though any block beginning with a vowel will have a &#xe016; above it.</p>
 		<p>However, these aren't the only positions letters may take. If the starting consonant of a syllable is a <i>Stop</i>
 		or a <i>Nazal</i> consonant, the letter stretches horizontally to fill the row, and pushes the rest of the syllable
-		below it. Similarly, a <i>Stop</i> or <i>Nazal</i> consonant at the END of the syllable, but not the start, will push
-		the rest of the syllable above itself.</p>
+		below it.</p>
 		<pre>
-	╔═════════════════════════╗  ╔═════════════════════════╗  ╔════════════╦════════════╗
-	║            1            ║  ║            1            ║  ║     1      ║     2      ║
-	╠═════════════════════════╣  ╠════════════╦════════════╣  ╠════════════╩════════════╣
-	║            2            ║  ║     2      ║      3     ║  ║            3            ║
-	╚═════════════════════════╝  ╚════════════╩════════════╝  ╚═════════════════════════╝</pre>
+	╔═════════════════════════╗  ╔═════════════════════════╗
+	║            1            ║  ║            1            ║
+	╠═════════════════════════╣  ╠════════════╦════════════╣
+	║            2            ║  ║     2      ║      3     ║
+	╚═════════════════════════╝  ╚════════════╩════════════╝</pre>
 		<p>And if the starting or ending consonant is a <i>Fricative</i> or <i>Sibilant</i> cosonant, the letter stretches
 		vertically, forcing the rest of the syllable to be stacked next to it.</p>
 		<pre>
-	╔════════════╦════════════╗  ╔════════════╦════════════╗
-	║            ║     2      ║  ║     1      ║            ║
-	║     1      ╠════════════╣  ╠════════════╣     3      ║
-	║            ║     3      ║  ║     2      ║            ║
-	╚════════════╩════════════╝  ╚════════════╩════════════╝</pre>
+	╔════════════╦════════════╗
+	║            ║     2      ║
+	║     1      ╠════════════╣
+	║            ║     3      ║
+	╚════════════╩════════════╝</pre>
 
 	<img src="img/sutra.png" style="float:right;" />
-	<p>The diagram to the right represents the <i>gismu</i>, "<i>sutra</i>" (fast), with every letter color-coded and the
+	<p>The glyph to the right represents the <i>gismu</i>, "<i>sutra</i>" (fast), with every letter color-coded and the
 	reading order labled. The word-block is composed of two syllables stacked on top of each other, with the top one being
-	read first. Each syllable is read with the top-left most letter first, in the order shown in the tables above. In that
+	read first. Each syllable is read with the top-left most letter first, in the order shown in the tables above. In the
 	case of "<i>sutra</i>", the first syllable is "sut". The first letter, "s" is a Sibilant, and thus it stretches
 	vertically, pushing the rest of the syllable to its side. As a result, "u" and "t" are read from top to bottom. In the
 	case of "ra", the only consonant "r" does not modify itself under any circumstant, and thus both letters fill the
-	syllable block normally.</p>
+	syllable block horizontally.</p>
+
+	<p>Note that the syllabification of <i>CCVCV gismu</i> will always break into <i>{CCV}</i>,<i>{CV}</i>, however <i>CVCCV
+	gismu</i> can be broken into <i>{CVC}</i>,<i>{CV}</i> or <i>{CV}</i>,<i>{CCV}</i> blocks. In writing you can alternate
+	between the two styles, though font files will need to use one or the other. For the <i>Sefta</i> font I opted to use
+	the <i>{CVC}</i>,<i>{CV}</i> style, but other implementations can alternate. Consider it artistic licensing.</p>
 
 	<p>Valbli's writing direction could be either top-to-bottom or left-to-right. Either mode has its benefits, and in either
-	instance, spaces are completely optional. However, it should be noted that when writing top-to-bottom, it becomes difficult
-	to distinguish one syllable from the other.  Can you read what the sentence below says?</p>
+	instance, however you may have to delimeter glyphs with a space because of instances where syllables may run together.</p>
+	<p>Can you read what the sentence below says?</p>
 	<img src="img/mi sutra bajra.png" />
 
-	<p>Something to keep in mind, is that the <i>glottal stop</i> (.) and <i>glottal spirant</i> (') do not completely act as letters in
-	Valbli, much like they do not treated as phenomes of their own in Lojban phonlogy. For this reason, neither of these letters
+	<p>Always keep in mind that the <i>glottal stop</i> (.) and <i>glottal spirant</i> (') do not completely act as letters in
+	Valbli, much like they are not treated as phenomes of their own in Lojban phonlogy. For this reason, neither of these letters
 	truly fit into the tables above. A <b>.</b> will never be inserted mid-word, and thus the only place it can be placed is above
 	and/or below a word block, and a <b>'</b> will only appear between vowels. In that case, a <b>'</b> can be placed between any vowel
 	without changing the format of the syllable. If the two vowels in question are stacked vertically, then a horizontal line will
@@ -307,13 +316,13 @@
 	<p>The table below illustrates this interaction.</p>
 
 	<table class="examples">
-		<tr> <td><img src="img/ai.png" /></td> <td><img src="img/rai.png" /></td>
-			<td><img src="img/a'i.png" /></td> <td><img src="img/ra'i.png" /></td> </tr>
-		<tr> <th>ai</th> <th>rai</th> <th>a'i</th> <th>ra'i</th> </tr>
+		<tr> <td><img src="img/rai.png" /></td>
+			<td><img src="img/ra'i.png" /></td> </tr>
+		<tr> <th>rai</th> <th>ra'i</th> </tr>
 
-                <tr> <td><img src="img/stop-rai.png" /></td> <td><img src="img/ta'a.png" /></td>
+                <tr> <td><img src="img/ta'a.png" /></td>
 			<td><img src="img/fa'a.png" /></td> <td><img src="img/stop-fa'a.png" /></td> </tr>
-                <tr> <th>.rai</th> <th>ta'a</th> <th>fa'a</th> <th>.fa'a</th> </tr>
+                <tr> <th>ta'a</th> <th>fa'a</th> <th>.fa'a</th> </tr>
 	</table>
 	</section>
 </body>

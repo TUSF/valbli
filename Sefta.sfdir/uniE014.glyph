@@ -2,26 +2,26 @@ StartChar: uniE014
 Encoding: 57364 57364 5
 Width: 1000
 VWidth: 0
-HStem: 80 100<280 680>
-VStem: 180 100<180 580>
+Flags: HM
 LayerCount: 2
 Fore
 SplineSet
-280 180 m 0
- 680 180 l 0
- 780 80 l 1
- 180 80 l 1
- 180 680 l 1
- 280 580 l 0
- 280 180 l 0
-800 700 m 1
- 200 700 l 1
- 300 600 l 0
- 700 600 l 3
- 700 200 l 0
- 800 100 l 1
- 800 700 l 1
+200 100 m 0
+ 750 100 l 0
+ 850 0 l 1
+ 100 0 l 1
+ 100 750 l 1
+ 200 650 l 0
+ 200 100 l 0
+898 800 m 1
+ 898 0 l 1
+ 798 100 l 0
+ 798 700 l 0
+ 200 700 l 0
+ 100 800 l 1
+ 898 800 l 1
 EndSplineSet
+Validated: 1
 Comment: "Valbli U"
 Colour: ff0000
 EndChar

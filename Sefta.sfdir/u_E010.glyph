@@ -6,14 +6,15 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-32 0 m 1
- 500 783 l 1
- 968 0 l 1
- 830 50 l 1
- 500 600 l 1
- 170 50 l 1
- 32 0 l 1
+100 0 m 1
+ 500 800 l 1
+ 900 0 l 1
+ 762 50 l 1
+ 500 617 l 1
+ 238 50 l 1
+ 100 0 l 1
 EndSplineSet
+Validated: 1
 Comment: "Valbli A"
 Colour: ff0000
 EndChar

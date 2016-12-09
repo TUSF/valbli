@@ -3,20 +3,23 @@ Encoding: 57380 57380 13
 Width: 1000
 VWidth: 0
 Flags: W
+HStem: 0 100<136 800> 702 98<136 800>
+VStem: 800 100<100 700>
 LayerCount: 2
 Fore
 SplineSet
-900 600 m 1
- 864 700 l 1
- 100 700 l 1
- 136 600 l 1
- 800 602 l 17
- 800 100 l 9
- 100 100 l 25
- 136 0 l 1
+900 700 m 1
  900 0 l 1
- 900 600 l 1
+ 136 0 l 1
+ 100 100 l 25
+ 800 100 l 1
+ 800 702 l 9
+ 136 700 l 1
+ 100 800 l 1
+ 864 800 l 1
+ 900 700 l 1
 EndSplineSet
+Validated: 1
 Comment: "Valbli S"
 Colour: ffff00
 EndChar

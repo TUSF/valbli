@@ -3,23 +3,26 @@ Encoding: 57379 57379 12
 Width: 1000
 VWidth: 0
 Flags: W
+HStem: 0 21G<128.8 200> 350 100<200 800> 702 98<136 800>
+VStem: 100 100<100 350> 800 100<450 700>
 LayerCount: 2
 Fore
 SplineSet
-900 600 m 1
- 864 700 l 1
- 100 700 l 1
- 136 600 l 1
- 800 602 l 1
- 800 400 l 1
- 100 400 l 1
- 100 100 l 1
- 136 0 l 1
+900 700 m 1
+ 900 350 l 1
+ 200 350 l 1
  200 0 l 1
- 200 300 l 1
- 900 300 l 1
- 900 600 l 1
+ 136 0 l 1
+ 100 100 l 1
+ 100 450 l 1
+ 800 450 l 1
+ 800 702 l 1
+ 136 700 l 1
+ 100 800 l 1
+ 864 800 l 1
+ 900 700 l 1
 EndSplineSet
+Validated: 1
 Comment: "Valbli C"
 Colour: ffff00
 EndChar
