@@ -1,0 +1,27 @@
+StartChar: uniE028
+Encoding: 57384 57384 17
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+900 600 m 1
+ 864 700 l 1
+ 100 700 l 1
+ 136 600 l 1
+ 800 602 l 1
+ 800 400 l 1
+ 100 400 l 1
+ 100 100 l 1
+ 136 0 l 1
+ 900 0 l 1
+ 864 100 l 5
+ 200 100 l 1
+ 200 300 l 1
+ 900 300 l 1
+ 900 600 l 1
+EndSplineSet
+Comment: "Valbli J"
+Colour: ffff00
+EndChar

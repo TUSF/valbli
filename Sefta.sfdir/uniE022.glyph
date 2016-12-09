@@ -1,0 +1,23 @@
+StartChar: uniE022
+Encoding: 57378 57378 10
+Width: 1000
+VWidth: 0
+Flags: W
+HStem: 600 100<136 450 550 864>
+VStem: 450 100<38 600>
+LayerCount: 2
+Fore
+SplineSet
+550 600 m 1
+ 550 38 l 1
+ 450 2 l 1
+ 450 600 l 1
+ 136 600 l 1
+ 100 700 l 1
+ 864 700 l 1
+ 900 600 l 1
+ 550 600 l 1
+EndSplineSet
+Comment: "Valbli T"
+Colour: ffff00
+EndChar

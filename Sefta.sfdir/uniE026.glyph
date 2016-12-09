@@ -1,0 +1,23 @@
+StartChar: uniE026
+Encoding: 57382 57382 15
+Width: 1000
+VWidth: 0
+Flags: W
+HStem: 0 21G<100 155.556>
+VStem: 100 100<36 399 520 764>
+LayerCount: 2
+Fore
+SplineSet
+800 115 m 1
+ 800 -5 l 1
+ 200 399 l 1
+ 200 36 l 1
+ 100 0 l 1
+ 100 764 l 1
+ 200 800 l 1
+ 200 520 l 1
+ 800 115 l 1
+EndSplineSet
+Comment: "Valbli X"
+Colour: ffff00
+EndChar

@@ -1,0 +1,22 @@
+StartChar: uniE01A
+Encoding: 57370 57370 24
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+314.823242188 168.603515625 m 1
+ 818.823242188 458.603515625 l 1
+ 900 390 l 1
+ 396 100 l 1
+ 314.823242188 168.603515625 l 1
+100 374 m 1
+ 618.823242188 675.603515625 l 5
+ 700 607 l 5
+ 181.176757812 305.396484375 l 1
+ 100 374 l 1
+EndSplineSet
+Comment: "Valbli L"
+Colour: ffff00
+EndChar

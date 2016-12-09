@@ -1,0 +1,26 @@
+StartChar: uniE019
+Encoding: 57369 57369 22
+Width: 1000
+VWidth: 0
+Flags: W
+HStem: 0 100<200 500 600 864>
+VStem: 100 100<100 764> 500 100<100 664>
+LayerCount: 2
+Fore
+SplineSet
+500 664 m 5
+ 600 700 l 1
+ 600 100 l 1
+ 864 100 l 1
+ 900 0 l 1
+ 136 0 l 1
+ 100 100 l 1
+ 100 764 l 1
+ 200 800 l 1
+ 200 100 l 1
+ 500 100 l 5
+ 500 664 l 5
+EndSplineSet
+Comment: "Valbli N"
+Colour: ffff00
+EndChar

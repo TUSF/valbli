@@ -1,0 +1,14 @@
+StartChar: uniE011
+Encoding: 57361 57361 3
+Width: 1000
+VWidth: 0
+Flags: W
+HStem: 200 200
+VStem: 400 200
+LayerCount: 2
+Fore
+Refer: 1 57362 N 1 0 0 1 0 -100 2
+Refer: 0 57360 N 1 0 0 1 0 0 2
+Comment: "Valbli E"
+Colour: ff0000
+EndChar

@@ -1,0 +1,61 @@
+SplineFontDB: 3.0
+FontName: Sefta
+FullName: Sefta
+FamilyName: Sefta
+Weight: Regular
+Copyright: Copyright (c) 2016, TUSF
+UComments: "2016-12-7: Created with FontForge (http://fontforge.org)"
+FontLog: "Dec 08, 2016+AAoA Base glyphs created.+AAoA TODO: Write a script to generate the rest of the font, by superimposing references together."
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+woffMajor: 0
+woffMinor: 1
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 913 -1209976370 13590603]
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1481153107
+ModificationTime: 1481244394
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+OS2UnicodeRanges: 00000000.10000000.00000000.00000000
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033
+Encoding: UnicodeFull
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 57312 16 10
+BeginPrivate: 0
+EndPrivate
+TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+EndSplineFont

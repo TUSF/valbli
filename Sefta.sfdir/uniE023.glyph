@@ -1,0 +1,25 @@
+StartChar: uniE023
+Encoding: 57379 57379 12
+Width: 1000
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+900 600 m 1
+ 864 700 l 1
+ 100 700 l 1
+ 136 600 l 1
+ 800 602 l 1
+ 800 400 l 1
+ 100 400 l 1
+ 100 100 l 1
+ 136 0 l 1
+ 200 0 l 1
+ 200 300 l 1
+ 900 300 l 1
+ 900 600 l 1
+EndSplineSet
+Comment: "Valbli C"
+Colour: ffff00
+EndChar

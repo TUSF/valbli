@@ -1,0 +1,19 @@
+StartChar: uE010
+Encoding: 57360 57360 0
+Width: 1000
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+32 0 m 1
+ 500 783 l 1
+ 968 0 l 1
+ 830 50 l 1
+ 500 600 l 1
+ 170 50 l 1
+ 32 0 l 1
+EndSplineSet
+Comment: "Valbli A"
+Colour: ff0000
+EndChar
