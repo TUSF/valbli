@@ -1,0 +1,27 @@
+StartChar: uniE014
+Encoding: 57364 57364 5
+Width: 1000
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+SplineSet
+200 100 m 0
+ 750 100 l 0
+ 850 0 l 1
+ 100 0 l 1
+ 100 750 l 1
+ 200 650 l 0
+ 200 100 l 0
+898 800 m 1
+ 898 0 l 1
+ 798 100 l 0
+ 798 700 l 0
+ 200 700 l 0
+ 100 800 l 1
+ 898 800 l 1
+EndSplineSet
+Validated: 1
+Comment: "Valbli U"
+Colour: ff0000
+EndChar

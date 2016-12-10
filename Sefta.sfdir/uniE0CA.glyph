@@ -1,0 +1,13 @@
+StartChar: uniE0CA
+Encoding: 57546 57546 159
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 1 57362 S 1 0 0 1 -224 -290 2
+Refer: 0 57360 S 0.4375 0 0 1 56.25 0 2
+Refer: 5 57364 N 0.438596 0 0 1 506.14 0 2
+Refer: 7 57367 N 1 0 0 1 0 0 2
+Refer: 6 57366 N 1 0 0 1 0 500 2
+EndChar

@@ -1,0 +1,29 @@
+StartChar: uniE02C
+Encoding: 57388 57388 21
+Width: 1000
+VWidth: 0
+Flags: W
+HStem: 0 21G<95 226.571> 700 100<136 200 300 499 620 864>
+VStem: 200 100<304 700>
+LayerCount: 2
+Fore
+SplineSet
+200 700 m 1
+ 136 700 l 1
+ 100 800 l 1
+ 864 800 l 1
+ 900 700 l 1
+ 620 700 l 1
+ 215 0 l 1
+ 95 0 l 1
+ 200 156 l 1
+ 200 700 l 1
+300 304 m 1
+ 499 700 l 1
+ 300 700 l 1
+ 300 304 l 1
+EndSplineSet
+Validated: 1
+Comment: "Valbli G"
+Colour: ffff00
+EndChar

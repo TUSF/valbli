@@ -1,0 +1,11 @@
+StartChar: uniE017
+Encoding: 57367 57367 7
+Width: 1000
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 6 57366 S 0 -1 0.5 0 300 900 2
+Comment: "Valbli '"
+Colour: ff00
+EndChar

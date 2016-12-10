@@ -1,0 +1,18 @@
+StartChar: uniE016
+Encoding: 57366 57366 6
+Width: 1000
+VWidth: 0
+HStem: 350 100<136 864>
+LayerCount: 2
+Fore
+SplineSet
+900 350 m 5
+ 136 350 l 5
+ 100 450 l 5
+ 864 450 l 5
+ 900 350 l 5
+EndSplineSet
+Validated: 1
+Comment: "Valbli ."
+Colour: ff00
+EndChar
